@@ -45,5 +45,5 @@ npm run dev
 
 **Open your postman and import my collection**
 ```bash
-
+url_shorter_json_collections
 ```

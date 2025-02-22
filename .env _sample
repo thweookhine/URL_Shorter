@@ -1,0 +1,4 @@
+PORT=3000
+DATABASE_NAME=yourDB
+DATABASE_USER=your_username
+DATABASE_PASSWORD=your_password
