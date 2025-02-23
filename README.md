@@ -16,11 +16,6 @@ API to shorten long URLs. API provides endpoints to create, retrieve, update, de
 - Mysql installed on your system
 - Prepare .env by referencing .env_sample
 
-**Run by using docker**
-```bash
-docker-compose up --build
-```
-
 ## Installation
 
 **Clone the Repository**
@@ -32,13 +27,9 @@ git clone https://github.com/thweookhine/URL_Shorter.git
 cd URL_Shorter
 
 ```
-**Install Dependencies**
+**Run by using docker**
 ```bash
-npm install
-```
-**Run Server**
-```bash
-npm run dev
+docker-compose up --build
 ```
 
 **Open your postman and import my collection**
