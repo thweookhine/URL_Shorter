@@ -14,13 +14,11 @@ API to shorten long URLs. API provides endpoints to create, retrieve, update, de
 
 - Node.js installed on your system.
 - Mysql installed on your system
+- Prepare .env by referencing .env_sample
 
-**Using Mysql docker**
+**Run by using docker**
 ```bash
-docker pull mysql
-```
-```bash
-docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=your_password -e MYSQL_DATABASE=your_DB -p 3307:3306 -d mysql:latest
+docker-compose up --build
 ```
 
 ## Installation
